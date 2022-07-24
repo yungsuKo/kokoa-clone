@@ -1,0 +1,25 @@
+#friends-display-link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 10px 0px;
+}
+#friends-display-link .fa-info {
+  line-height: 17.5px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: grey;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+#friends-display-link .fa-chevron-right {
+  line-height: 17.5px;
+
+  margin-left: 5px;
+}
