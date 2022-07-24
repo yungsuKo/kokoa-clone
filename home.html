@@ -9,41 +9,32 @@
     <title>Home - My first website</title>
     <meta name="description" content="this is website" />
     <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      body {
+        height: 5000px;
+        margin: 20px;
+        background-color: violet;
+      }
+      div {
+        /* display: inline-block; */
+        /* margin: 10px; */
+        width: 150px;
+        height: 150px;
+        background-color: aliceblue;
+
+        border: 1px solid black;
+      }
+      #different {
+        top: 20px;
+        position: fixed;
+        width: 10px;
+        background-color: aqua;
+      }
+    </style>
   </head>
   <body>
-    <header><h1>Don't give up</h1></header>
-    <a href="https://www.google.com" target="_blank">Go to Google</a>
-    <br /><br />
-    <div>High Q!</div>
-    <a href="https://www.google.com" target="_blank">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/ko/6/63/%ED%95%98%EC%9D%B4%ED%81%90_%EC%9D%BC%EB%B3%B8%EC%96%B4_1%EA%B6%8C_%EC%BB%A4%EB%B2%84.jpg"
-      />
-    </a>
-    <p>안녕하세요 저는 고용수에요</p>
-    <form>
-      <label for="profile">profile photo</label>
-      <input id="profile" type="file" />
-      <br />
-
-      <label for="name">이름 : </label>
-      <input id="name" required placeholder="name" />
-      <label for="website">URL : </label>
-      <input id="website" required placeholder="URL" type="url" />
-      <label for="id">ID : </label>
-      <input id="id" required placeholder="ID" />
-      <label for="pw">PW : </label>
-      <input
-        id="pw"
-        required
-        placeholder="Password"
-        minlength="8"
-        type="password"
-      />
-
-      <input type="submit" value="Create Account" />
-      <input type="range" />
-    </form>
-    <footer>&copy; 2022 Tom</footer>
+    <div>1</div>
+    <div id="different">2</div>
   </body>
 </html>
