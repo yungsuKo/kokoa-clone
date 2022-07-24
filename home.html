@@ -13,28 +13,26 @@
     <style>
       body {
         height: 5000px;
-        margin: 20px;
-        background-color: violet;
+        margin: 50px;
+        background-color: black;
       }
-      div {
-        /* display: inline-block; */
-        /* margin: 10px; */
-        width: 150px;
-        height: 150px;
-        background-color: aliceblue;
-
-        border: 1px solid black;
+      a {
+        color: white;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 10px;
+        transition: all 1s;
       }
-      #different {
-        top: 20px;
-        position: fixed;
-        width: 10px;
-        background-color: aqua;
+      a:hover {
+        border-radius: 50px;
+        color: tomato;
+        background-color: wheat;
+        font-size: 30px;
       }
     </style>
   </head>
   <body>
-    <div>1</div>
-    <div id="different">2</div>
+    <a href="#">website</a>
   </body>
 </html>
