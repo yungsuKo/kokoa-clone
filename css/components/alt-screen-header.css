@@ -1,0 +1,19 @@
+.alt-header {
+  padding: var(--horizontal-space);
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alt-header__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+.alt-header__column:last-child {
+  margin-left: auto;
+}
