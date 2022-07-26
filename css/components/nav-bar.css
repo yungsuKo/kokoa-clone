@@ -16,30 +16,8 @@
 }
 
 .nav__notification {
-  background-color: tomato;
-  color: white;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-weight: 600;
   position: absolute;
   left: 15px;
-  bottom: 15px;
-}
-.nav__menu-notification {
-  background-color: tomato;
-  color: white;
-  width: 5px;
-  height: 5px;
-  border-radius: 2.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  position: absolute;
-  left: 20px;
   bottom: 15px;
 }
